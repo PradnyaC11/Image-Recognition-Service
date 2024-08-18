@@ -3,7 +3,7 @@ This project is part of CSE 546 - Cloud Computing course.
 
 Architecture of the application - 
 
-![Alt text](  "Architecture Diagram")
+![Alt text](https://github.com/PradnyaC11/Image-Recognition-Service/blob/main/architecture_diagram.png "Architecture Diagram")
 
 The web tier will receive face recognition requests from clients and forward it to the App Tier for model inference using the SQS queue. It should also return the recognition result from the App Tier as output to the users. The input from each request is a .jpg file, and the output in each response is the recognition result.
 Output would be in form of: <filename>:<classification_results>
